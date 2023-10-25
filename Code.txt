@@ -1,0 +1,19 @@
+public class Code {
+	public static void main(String [] args) {
+	//wstawic przelicznik z usd na eur
+	double usdToEurEchangeRate = 0,86;
+
+	Scanner scanner = new Scanner(System.in);
+
+	System.out.println("Enter the amount in USD: ");
+	double amountInUsd = scanner.nextDouble();
+
+	// przeliczyc usd na eur
+	double amountInEUR = amountInUSD * usdToEurExchangeRate;
+
+	System.out.println(amountInUsd + " USD is equal to " + amountInEur + " EUR");
+
+	scanner.close();
+	}
+
+}
